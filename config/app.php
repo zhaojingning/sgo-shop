@@ -231,5 +231,6 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
 
     ],
+    'order_ttl' => 1800,
 
 ];
