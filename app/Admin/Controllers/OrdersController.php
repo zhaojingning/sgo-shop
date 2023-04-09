@@ -10,10 +10,11 @@ use Illuminate\Http\Request;
 use App\Exceptions\InvalidRequestException;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 
+
 class OrdersController extends AdminController
 {
     use ValidatesRequests;
-    
+
     protected $title = '订单';
 
     protected function grid()
@@ -88,4 +89,5 @@ class OrdersController extends AdminController
         // 返回上一页
         return redirect()->back();
     }
+
 }
